@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên hệ - Nguyen Minh Tuyen</title>
+</head>
+
+<body>
+    <main>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Thông tin</legend>
+                <label for="name">Họ và tên:</label>
+                <input type="text" id="name" name="name" required minlength="2">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label>Điện thoại:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10,11}">
+            </fieldset>
+
+            <fieldset>
+                <legend>Nội dung</legend>
+                <select name="subject">
+                    <option>Hỗ trợ</option>
+                    <option>Hỗ trợ 2</option>
+                </select>
+
+                <textarea id="message" name="message" rows="5" cols="50"></textarea>
+                <label for="category">Loại tin nhắn:</label>
+                <select id="category" name="category">
+                    <option value="feedback">Phản hồi</option>
+                    <option value="inquiry">Hỏi đáp</option>
+                    <option value="other">Khác</option>
+                </select>
+            </fieldset>
+
+            <button type="submit">Gửi</button>
+            <button type="reset">Xóa</button>
+
+            </from>
+    </main>
+    <footer>
+        <address>
+            Liên hệ: <a href="index.html">Trang chủ</a>
+            <telephone>Điện thoại: <a href="tel:+84987654321">+84 987 654 321</a></telephone>
+            <time datetime="2026-06-01">01/06/2026</time>
+        </address>
+</body>
+
+</html>
