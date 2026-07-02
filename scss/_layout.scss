@@ -1,0 +1,23 @@
+@use 'variables' as v;
+@use 'components' as c;
+
+.navbar {
+  @include c.flex-center();
+  justify-content: space-between; 
+  background-color: v.$color-primary;
+  padding:  $spacing * 2 $spacing * 4;
+}
+.hero {
+  @include c.flex-center(column);
+  min-height: 300px;
+  background-color: $color-secondary;
+  color: white;
+  text-align: center;
+  padding: $spacing * 6 $spacing * 3;
+  gap: $spacing * 2;
+}
+.page-layout {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 v.$spacing-layout;
+}

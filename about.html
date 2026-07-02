@@ -5,10 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trang giới thiệu cá nhân của Nguyễn Minh Tuyến</title>
-    <meta name="description" content="Trang giới thiệu của Nguyễn Minh Tuyến, nơi bạn có thể tìm hiểu về kỹ năng, lộ trình học tập và các dự án của tôi.">
+    <meta name="description"
+        content="Trang giới thiệu của Nguyễn Minh Tuyến, nơi bạn có thể tìm hiểu về kỹ năng, lộ trình học tập và các dự án của tôi.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <header>
+        <h1>Nguyen Minh Tuyen - 24150008</h1>
+         <div class="navbar">
+            <div class="logo">My Website</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="about.html">Giới thiệu</a></li>
+                    <li><a href="contact.html">Liên hệ</a></li>
+                    <li><a href="https://github.com/NguyenMinhTuyen0/my-website" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                </ul>
+        </nav>
+    </div>>
+    </header>
+    <div class="page-layout">
+        <aside class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="#skills">Kỹ năng</a></li>
+                    <li><a href="#learning-path">Lộ trình học tập</a></li>
+                    <li><a href="#schedule">Lịch học</a></li>
+                    <li><a href="#courses">Môn học</a></li>
+                </ul>
+            </nav>
+        </aside>
     <main>
 
         <figure>
@@ -16,16 +46,29 @@
             <figcaption>Ảnh đại diện</figcaption>
         </figure>
 
-        <section>
-            <h1>Kỹ năng</h1>
-            <ul>
-                <li>Python</li>
-                <li>JavaScript</li>
-                <li>HTML/CSS</li>
-                <li>Java</li>
-            </ul>
+        <section id="skills">
+            <h2>Kỹ năng</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+            <h3>HTML5</h3>
+            <p>Cấu trúc website chuẩn SEO và ngữ nghĩa.</p>
+        </div>
+        <div class="skill-card">
+            <h3>CSS3 & Grid</h3>
+            <p>Xây dựng giao diện responsive linh hoạt.</p>
+        </div>
+        <div class="skill-card">
+            <h3>JavaScript</h3>
+            <p>Xử lý logic và tương tác người dùng.</p>
+        </div>
+        <div class="skill-card">
+            <h3>Responsive Design</h3>
+            <p>Tối ưu hóa hiển thị trên mọi thiết bị di động.</p>
+        </div>
+        </div>
+        </section>
             <h2>3 cặp thuật ngữ định nghĩa</h2>
-            <dl>
+            <dl class="highlight">
                 <dt>Biến (Variable)</dt>
                 <dd>Là một vùng nhớ được đặt tên để lưu trữ dữ liệu trong chương trình.</dd>
                 <dt>Hàm (Function)</dt>
@@ -43,7 +86,7 @@
                 <li>Ôn tập kiến thức đã học</li>
             </ol>
         </section>
-        
+
         <section>
             <h3>Lịch học</h3>
 
@@ -117,7 +160,7 @@
             </table>
         </section>
     </main>
-</body>
+    </div>
 <footer>
     <address>
         Liên hệ: <a href="index.html">Trang chủ</a>
@@ -125,5 +168,5 @@
         <time datetime="2026-06-01">01/06/2026</time>
     </address>
 </footer>
-
+</body>
 </html>

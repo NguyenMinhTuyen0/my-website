@@ -1,0 +1,7 @@
+.card { @include card-style; }
+.navbar { @include flex-center; justify-content: space-between; }
+@use 'variables'; 
+@use 'reset'; 
+@use 'layout'; 
+@use 'components'; 
+@use 'responsive';
